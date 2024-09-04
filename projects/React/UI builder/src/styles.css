@@ -1,0 +1,46 @@
+.canvas {
+    --dot-bg: #161616;
+    --dot-color: #848282;
+    --dot-size: 1px;
+    --dot-space: 50px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+  }
+/* Target the Paper component directly */
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+    background-color: transparent; /* Make the background transparent */
+    box-shadow: none; /* Remove the default shadow */
+  }
+  
+  /* Target the Typography component if needed */
+  .MuiTypography-root.MuiTypography-h6 {
+    color: #000; /* Adjust text color if necessary */
+  }
+/* Target the outer box */
+.MuiBox-root.css-131912n {
+  background-color: #070707; /* Light gray background */
+  padding: 16px; /* Adjust padding as needed */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
+
+/* Target the typography for the header */
+.MuiTypography-root.MuiTypography-h6.css-8zgow4-MuiTypography-root {
+  color: #333; /* Dark gray text for header */
+}
+
+/* Target the draggable items */
+.MuiBox-root.css-kffmcb {
+  background-color: #e0e0e0; /* Gray background for draggable items */
+  border: 1px solid #ccc; /* Optional: Border around items */
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  margin-bottom: 8px; /* Space between items */
+}
+
+/* Target the typography for draggable item text */
+.MuiTypography-root.MuiTypography-body1.css-1edfpdg-MuiTypography-root {
+  color: #333; /* Dark gray text for item labels */
+}
+  
